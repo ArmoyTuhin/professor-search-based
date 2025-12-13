@@ -21,7 +21,7 @@
 // STEP 3: Paste it below (without /api at the end)
 // 
 // Example: export const BACKEND_URL = 'https://abc123.ngrok-free.app'
-export const BACKEND_URL = 'https://your-ngrok-url.ngrok.io'
+export const BACKEND_URL = 'https://6831da43c3b2.ngrok-free.app'
 
 // ============================================
 // DO NOT MODIFY BELOW THIS LINE
