@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link, Navigate, useLocation } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link, Navigate, useLocation } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import SearchPage from './pages/SearchPage'
 import UniversitiesPage from './pages/UniversitiesPage'
@@ -86,7 +86,7 @@ function AppContent() {
     localStorage.removeItem('userRole')
     setHasToken(false)
     setUserRole('admin')
-    window.location.href = '/login'
+    window.location.href = '#/login'
   }
 
   // Show nav if we have a token (optimistic - ProtectedRoute will handle actual verification)
